@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/">
+
+    <title>{% block title %}>Twitter{% endblock %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel = "stylesheet" href ="{{ url_for('static',filename = "css/bootstrap.min.css")}}">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="nav-link bg-info "><a class = "nav-link bg-primary" href="#">Sobre</a></li>
+            <li role="presentation"><a class = "nav-link bg-primary" href="{{ url_for('index') }}">Pagina Inicial</a></li>
+            {% if current_user.is_authenticated %}
+              <li role="presentation"><a class = "nav-link bg-primary" href="{{ url_for('logout') }}">Logout</a></li>
+            {% else %}
+            <li role="presentation"><a class = "nav-link bg-primary" href="{{ url_for('login') }}">Login</a></li>
+            {% endif %}
+          </ul>
+        </nav>
+        <img class="ml-2" src="{{ url_for('static',filename='images/1657046141twitter-logo-black.png') }}" alt="" width="72" height="57" alt="Logo Twitter">
+        <h3 class = "fas fa-star"  class="text-muted"><a href="{{ url_for('index') }}">Twitter</a></h3>
+      </div>
+      <div class="alert alert-warning">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul class = "flashes">
+                {% for message in messages %}
+                  <li>{{ message }}</li>
+                  {% endfor %}
+
+            </ul>
+      </div>
+        {% endif %}
+        {% endwith %}
+
+
+      {% block content %}
+      {% endblock %}
+    
+
+    </div> <!-- /container -->
+    
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src = "{{ url_for('static', filename = "js/bootstrap.min.js")}}"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2016 Company, Inc.</p>
+  </footer>
+</html>
