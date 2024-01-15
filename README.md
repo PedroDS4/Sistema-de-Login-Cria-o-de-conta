@@ -2,6 +2,8 @@
 
 > Status: Developing/Almost Ready ⚠️
 
+![Imagem da Rede Social](URL_da_Sua_Imagem)
+
 ## Descrição
 Este protótipo de rede social foi desenvolvido usando Flask, banco de dados SQL e HTML+CSS.
 
@@ -18,4 +20,5 @@ Métodos:
 - `getPassword()`
 
 ## Classe Follower:
-Métodos: (adicionar os métodos aqui)
+Métodos:
+- ``post()`
