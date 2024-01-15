@@ -2,7 +2,7 @@
 
 > Status: Developing/Almost Ready ⚠️
 
-![Imagem da Rede Social](https://imgur.com/a/VcukRv9)
+![Imagem da Rede Social](https://imgur.com/PEee7tk)
 ![Imagem da Rede Social](https://imgur.com/wo4lvFb)
 
 ## Descrição
