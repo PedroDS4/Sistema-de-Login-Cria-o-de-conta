@@ -2,7 +2,8 @@
 
 > Status: Developing/Almost Ready ⚠️
 
-![Imagem da Rede Social](URL_da_Sua_Imagem)
+![Imagem da Rede Social](https://prnt.sc/2Q7pHCeWYmEa)
+![Imagem da Rede Social](https://prnt.sc/lCjGJpxVIlZK)
 
 ## Descrição
 Este protótipo de rede social foi desenvolvido usando Flask, banco de dados SQL e HTML+CSS.
@@ -21,4 +22,4 @@ Métodos:
 
 ## Classe Follower:
 Métodos:
-- ``post()`
+- `post()`
