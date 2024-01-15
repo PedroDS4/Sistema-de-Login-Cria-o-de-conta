@@ -1,21 +1,21 @@
-#Sistema de Login/Criação de conta com Flask e banco de dados
+# Sistema de Login/Criação de conta com Flask e banco de dados
 
 > Status: Developing/Almost Ready ⚠️
 
+## Descrição
+Este protótipo de rede social foi desenvolvido usando Flask, banco de dados SQL e HTML+CSS.
 
-##Este protótipo de rede social foi desenvolvido usando flask, db sql e html+css
+- Sistema de classes em Python usando `db.column` para transformar as informações da classe em tabelas no banco de dados relacional SQL.
+- HTML e CSS usando o Jinja fornecido pelo Flask, e o Bootstrap com seus modelos prontos para estilizar a página.
+- Sistema de criação de conta inserindo usuários no banco de dados e login validando autenticação (apenas cliente).
+- Este projeto foi baseado na playlist do curso de Flask da Julia Rizza no YouTube.
 
--Sistema de classes em python usando db.column para transformar as informações da classe em tabelas pro banco de dados relacional SQL
-*Html e css usando o jinja fornecido pelo flask, e o bootstrap e seus modelos prontos para estilizar a página
-*Sistema de Criação de conta inserindo usuários no banco de dados e login validando autenticação(apenas cliente)
-*Este projeto foi baseado na playlist do curso de flask da Julia Rizza no youtube
+# Documentação
 
+## Classe User:
+Métodos:
+- `getLogin()`
+- `getPassword()`
 
-#Documentação
--Classe User:
-  métodos: -getLogin()
-           -getPassword()
--Classe Follower:
-  métodos:
-
-  
+## Classe Follower:
+Métodos: (adicionar os métodos aqui)
