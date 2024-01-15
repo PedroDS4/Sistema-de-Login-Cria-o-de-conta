@@ -2,8 +2,8 @@
 
 > Status: Developing/Almost Ready ⚠️
 
-![Imagem da Rede Social](https://prnt.sc/2Q7pHCeWYmEa)
-![Imagem da Rede Social](https://prnt.sc/lCjGJpxVIlZK)
+![Imagem da Rede Social](https://imgur.com/a/VcukRv9)
+![Imagem da Rede Social](https://imgur.com/wo4lvFb)
 
 ## Descrição
 Este protótipo de rede social foi desenvolvido usando Flask, banco de dados SQL e HTML+CSS.
