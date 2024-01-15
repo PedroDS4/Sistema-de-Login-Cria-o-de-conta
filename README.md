@@ -3,7 +3,7 @@
 > Status: Developing/Almost Ready ⚠️
 
 ![Imagem da Rede Social](https://imgur.com/PEee7tk)
-![Imagem da Rede Social](https://imgur.com/wo4lvFb)
+![Imagem da Rede Social]([Imgur](https://imgur.com/wo4lvFb))
 
 ## Descrição
 Este protótipo de rede social foi desenvolvido usando Flask, banco de dados SQL e HTML+CSS.
